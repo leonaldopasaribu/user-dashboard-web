@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:user-dashboard-web": "node dist/user-dashboard-web/server/server.mjs"
+    "serve:ssr:user-dashboard-web": "node dist/user-dashboard-web/server/server.mjs",
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx|graphql|vue|html)\""
   },
   "private": true,
   "dependencies": {
