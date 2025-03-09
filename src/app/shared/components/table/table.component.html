@@ -1,0 +1,11 @@
+<table class="w-full text-left text-sm text-gray-500 rtl:text-right">
+  <thead class="bg-gray-50 text-xs text-gray-700 uppercase">
+    <tr>
+      @for (columnHeader of columnHeaders(); track $index) {
+        <th scope="col" class="px-6 py-3">{{ columnHeader.label }}</th>
+      }
+    </tr>
+  </thead>
+
+  <ng-content select="[tableBodyContent]"></ng-content>
+</table>
