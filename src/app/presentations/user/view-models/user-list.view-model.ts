@@ -19,9 +19,7 @@ export class UserListViewModel {
   private readonly userListStore = inject(UserListStore);
   private readonly userRepository = inject(UserRepository);
 
-  private loadingDialogRef:
-    | DialogRef<unknown, LoadingScreenComponent>
-    | undefined;
+  loadingDialogRef: DialogRef<unknown, LoadingScreenComponent> | undefined;
 
   get $isLoading(): Signal<boolean> {
     return this.userListStore.select('isLoading');
