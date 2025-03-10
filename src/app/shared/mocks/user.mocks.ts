@@ -1,7 +1,7 @@
 import { UserEntity } from 'src/app/core/entities/user.entity';
 import { UserDtoJsonPlaceholder } from 'src/app/data/user/user.dto.jsonplaceholder';
 
-export const USER_DTO_MOCKS: UserDtoJsonPlaceholder = {
+export const USER_DTO_MOCK: UserDtoJsonPlaceholder = {
   id: 1,
   name: 'John Doe',
   username: 'johndoe',
