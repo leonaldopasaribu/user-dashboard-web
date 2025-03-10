@@ -3,25 +3,25 @@ import { UserDtoJsonPlaceholder } from 'src/app/data/user/user.dto.jsonplacehold
 
 export const USER_DTO_MOCKS: UserDtoJsonPlaceholder = {
   id: 1,
-  name: 'Leanne Graham',
-  username: 'Bret',
-  email: 'Sincere@april.biz',
+  name: 'John Doe',
+  username: 'johndoe',
+  email: 'johndoe@example.com',
   address: {
-    street: 'Kulas Light',
-    suite: 'Apt. 556',
-    city: 'Gwenborough',
-    zipcode: '92998-3874',
+    street: '123 Main St',
+    suite: 'Apt 4B',
+    city: 'New York',
+    zipcode: '10001',
     geo: {
-      lat: '-37.3159',
-      lng: '81.1496',
+      lat: '40.7128',
+      lng: '-74.0060',
     },
   },
-  phone: '1-770-736-8031 x56442',
-  website: 'hildegard.org',
+  phone: '+1-555-1234',
+  website: 'www.johndoe.com',
   company: {
-    name: 'Romaguera-Crona',
-    catchPhrase: 'Multi-layered client-server neural-net',
-    bs: 'harness real-time e-markets',
+    name: 'Doe Industries',
+    catchPhrase: 'Innovating the Future',
+    bs: 'Technology',
   },
 };
 
